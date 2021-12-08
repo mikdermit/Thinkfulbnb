@@ -125,6 +125,10 @@ input[type="text"] {
   width: 100px;
 }
 
+input[type="date"] {
+  width: 100px;
+}
+
 /* -------  Footer ------- */
 
 footer {
