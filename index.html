@@ -20,7 +20,7 @@
   <body>
     <header>
       <div class="logo">Thinkfulbnb</div>
-      <nav>
+      <nav class="item">
         <ul id="menu">
           <li><a href="#stay">Stay</a></li>
           <li><a href="#about">About</a></li>
@@ -35,8 +35,8 @@
       <section id="stay">
         <h2>Find the perfect vacation rental</h2>
         <!-- Create a form here -->
-        <form>
-          <div>
+        <form class="group">
+          <div class="item">
             <label class="item" for="location">Location</label>
             <input
               class="item-double"
@@ -47,8 +47,8 @@
               required
             />
           </div>
-          <div>
-            <label class="item for="start">Arrive</label>
+          <div class="item">
+            <label class="item" for="start">Arrive</label>
             <input
               class="item-double"
               type="date"
@@ -58,7 +58,7 @@
               required
             />
           </div>
-          <div>
+          <div class="item">
             <label class="item" for="end">Depart</label>
             <input 
               class="item-double" 
@@ -68,7 +68,7 @@
               min="2021-12-08" 
             />
           </div>
-          <div>
+          <div class="item">
             <label class="item" for="type">Type</label>
             <select class="item-double" id="type" name="type" size="1">
               <option value="apartment">Apartment</option>
