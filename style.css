@@ -100,8 +100,10 @@ form {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  margin: 0px 20px 20px 20px
-}
+  justify-content: space-evenly;
+  margin: 0px 20px 20px 20px;
+  flex-wrap: wrap;
+} 
 
 form label {
   font-weight: bold;
@@ -109,9 +111,8 @@ form label {
 
 form select,
 form input {
-  flex: 1.5;
   margin-bottom: 20px;
-  width: 130px;
+  width: 100px;
 }
 
 form button {
@@ -125,6 +126,7 @@ form button {
 
 form div {
   display: flex;
+  margin: 10px;
 }
 
 /* -------  Footer ------- */
@@ -168,7 +170,7 @@ footer p {
 
   form {
     flex-direction: row;
-
+    flex-wrap: wrap;
   }
 
   form div {
